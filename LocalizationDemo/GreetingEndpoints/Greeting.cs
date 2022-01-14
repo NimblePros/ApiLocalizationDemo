@@ -18,9 +18,9 @@ public class Greeting : EndpointBaseAsync
   {
         _localizer = localizer;
         _logger = logger;
-  }
+    }
 
-  [HttpGet("/Greeting")]
+    [HttpGet("/Greeting")]
   [SwaggerOperation(
       Summary = "Returns a localized greeting",
       Description = "Returns a localized greeting",
