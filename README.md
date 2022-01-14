@@ -19,3 +19,7 @@ Change the `Accept-Language` header to `en-AU` and you should get a different gr
 To add support for another language, you should copy/paste an existing `Messages.en-US.resx` file, change the name to `Messages.xx-XX.resx` for the language you're adding, and make sure to specify that it will perform code generation (dropdown when you double-click the file).
 
 Then, you need to add it to the list of supported langages in the app startup.
+
+## References
+
+- [How to Use Localization in an ASP.NET Core Web API](https://www.syncfusion.com/blogs/post/how-to-use-localization-in-an-asp-net-core-web-api.aspx)
